@@ -1,0 +1,93 @@
+header {
+  background-color: #cccccc;
+  padding: 20px 0;
+}
+
+.container {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav li a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+p {
+  text-align: center;
+}
+body {
+  width: 100%;
+}
+.tituloPrincipal {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.titulos {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 24px 0;
+}
+
+em strong {
+  color: red;
+}
+
+.diferenciales ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+#mision {
+  font-size: 20px;
+}
+
+.items {
+  font-style: italic;
+}
+
+.principal {
+  padding: 30px;
+}
+
+.diferenciales {
+  background-color: white;
+  padding: 10px;
+}
+
+#imagenDiferencial {
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+  background: url("/img/bg.jpg");
+  padding: 40px;
+}
+
+.copyright {
+  color: white;
+  font-size: 13px;
+  margin: 20px;
+}
